@@ -3,24 +3,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(14, 203, 203);
+    background-color: rgba(16, 70, 2, 0.535);
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     font-size: 16px;
-    color: #333;
+    color: rgb(231, 228, 216);
+    background-image: url(images/forest.jpg);
 }
 
 main section {
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    max-width: 85%;
+    max-width: 700px;
     margin: 0 auto;
     padding: 10px;
     background-color: white;
     border: 2px solid black;
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
@@ -28,28 +29,40 @@ main section {
 .container {
     /* display: flex; use flexbox layout */
     justify-content: space-between; /* space items evenly along the main axis */
-    max-width: 60%;
+    max-width: 85%;
     margin: 0 auto;
     padding: 10px;
-    background-color: white;
-    border: 2px solid black;
+    /* background-color: white;
+    border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: left;
 }
+h1{ text-align: center;
+text-shadow: 3px 3px #d950a4;
+
+}
+
+h2{ text-align: center;
+  text-shadow: 3px 3px #d950a4
+}
 
 h3{
     text-align: center;
+    text-shadow: 3px 3px #d950a4
 }
 
 .section {
-    background-color: rgb(237, 241, 11);
+    background-color: rgba(138, 105, 70, 0.659);
     border-radius: 20px;
     padding: 20px;
     margin: 20px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 200px; 
+    overflow: auto
+    
   }
   
   
@@ -69,18 +82,22 @@ h3{
   }
   
   tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: transparent;
   }
   
   a {
-    color: #555;
+    color: #ffffff;
     text-decoration: none;
   }
   
   a:hover {
-    color: #000;
+    color: #ffd000;
     text-decoration: underline;
   }
+
+  a:link {
+  color: #ffffff;
+}
 
   html{
     scroll-behavior: smooth;
@@ -89,15 +106,40 @@ h3{
 
  
 .box1, .box2 {
-    width: 345px; /* set a width for the boxes */
-    /* height: 200px; set a height for the boxes */
-    background-color: rgba(204, 204, 204, 0.355); /* set a background color for the boxes */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 450px; 
+       
+    border-radius: 200px;
+    height: 240px; 
+    background-color: rgba(138, 105, 70, 0.659);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    /* height: 250px;  */
+    
+    
+
+    
+    /* background-color: rgba(204, 204, 204, 0.355); set a background color for the boxes */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   }
   
-selector{
-    overflow: auto
-    
-      }
+.full-width {
+  width: 100%;
+  
+}
+
+iframe {
+  max-width: 100%;
+  width: 5000px;
+  /* height: 100vh
+  max-width: 100%;
+  align-self: 100 */
+  /* text-align: center;
+  align-items: center;
+  align-content: center;
+  ruby-align: center;
+  vertical-align: middle; */
+  
+}
 
   
