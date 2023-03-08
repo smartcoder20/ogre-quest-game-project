@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 203, 203);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+main section {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    /* display: flex;
+    flex-wrap: wrap; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.container {
+    /* display: flex; use flexbox layout */
+    justify-content: space-between; /* space items evenly along the main axis */
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+}
+
+.section {
+    background-color: rgb(237, 241, 11);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+ .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  html{
+    scroll-behavior: smooth;
+
+ }
+
+ 
+.box1, .box2 {
+    width: 345px; /* set a width for the boxes */
+    /* height: 200px; set a height for the boxes */
+    background-color: rgba(204, 204, 204, 0.355); /* set a background color for the boxes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+selector{
+    overflow: auto
+    
+      }
+
+  
