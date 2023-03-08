@@ -9,7 +9,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     font-size: 16px;
     color: rgb(231, 228, 216);
-    background-image: url(images/forest.jpg);
+    background-image: url(/images/forest.jpg);
 }
 
 main section {
